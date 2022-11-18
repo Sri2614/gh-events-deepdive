@@ -6,10 +6,10 @@ on:
       - closed
       - converted_to_draft
     branches:    
-      - main
+      - master
   push:
     branches:    
-      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
