@@ -4,6 +4,7 @@ on:
     types: 
       - opened
       - closed
+      - converted_to_draft
   workflow_dispatch:
 jobs:
   deploy:
